@@ -1,0 +1,13 @@
+**/node_modules
+**/deploy
+**/Dockerfile*
+**/.git
+**/.dockerignore
+**/.prettierrc.js
+**/.eslintrc
+**/.eslintignore
+**/.vscode
+**/.gitignore
+**/.env
+LICENSE
+README.md
