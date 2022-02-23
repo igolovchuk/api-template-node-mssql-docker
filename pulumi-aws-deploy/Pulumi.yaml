@@ -1,0 +1,3 @@
+name: node-sql-api
+runtime: nodejs
+description: Test node api with SQL server inside single docker container
