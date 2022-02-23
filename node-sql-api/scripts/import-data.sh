@@ -14,4 +14,4 @@ do
 done
 
 #import the data from the csv file
-/opt/mssql-tools/bin/bcp DemoData.dbo.Products in "/app/products.csv" -c -t',' -S localhost -U $DB_USERNAME -P $DB_PASSWORD
+/opt/mssql-tools/bin/bcp DemoData.dbo.Products in "/app/db/seed/products.csv" -c -t',' -S localhost -U $DB_USERNAME -P $DB_PASSWORD
