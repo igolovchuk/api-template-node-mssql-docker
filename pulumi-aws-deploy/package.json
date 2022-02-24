@@ -4,12 +4,21 @@
     "main": "index",
     "license": "UNLICENSED",
     "devDependencies": {
-        "@types/node": "^16.11.12"
+        "@types/node": "^16.11.12",
+        "@typescript-eslint/eslint-plugin": "^5.6.0",
+        "@typescript-eslint/parser": "^5.6.0",
+        "eslint": "^8.4.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.27.1",
+        "prettier": "^2.5.1"
     },
     "dependencies": {
         "@pulumi/aws": "^4.31.0",
         "@pulumi/awsx": "^0.32.0",
         "@pulumi/docker": "^3.1.0",
+        "@pulumi/eks": "^0.37.1",
+        "@pulumi/kubernetes": "^3.16.0",
         "@pulumi/pulumi": "^3.19.0"
     },
     "scripts": {
