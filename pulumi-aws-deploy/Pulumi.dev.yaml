@@ -1,3 +1,7 @@
 config:
   aws:profile: dev-test
   aws:region: eu-central-1
+  node-sql-api:dbPassword:
+    secure: AAABAMnhwwnMEbeFetkb3uD6hS33sOr9rOdm1Ti+t/Jci68zUiBBfQ==
+  node-sql-api:dbUsername:
+    secure: AAABAIWvDA3vP6xE6YH3ykUyMjDToICRmI5WCyeZPGZrmQ==
