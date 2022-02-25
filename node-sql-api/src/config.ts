@@ -20,5 +20,3 @@ export const dbConfig: config = {
     useUTC: true,
   },
 };
-
-console.log('dbConfig:', dbConfig, serverPort);
