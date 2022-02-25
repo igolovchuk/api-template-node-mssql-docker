@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/mssql/server as mssqlBuild
+FROM mcr.microsoft.com/mssql/server:2019-latest as mssqlBuild
 #FROM node:14 as build
 
 ARG DB_USERNAME
@@ -18,11 +18,12 @@ ENV MSSQL_PID=Express
 USER root
 
 # Install node/npm
-RUN apt-get -y update  && \
-        apt-get install -y curl && \
+RUN apt-get -y update --no-install-recommends  && \
+        apt-get install -y curl --no-install-recommends && \
         curl -sL https://deb.nodesource.com/setup_14.x | bash - && \
-        apt-get install -y nodejs && \
-        apt-get install -y dos2unix
+        apt-get install -y nodejs --no-install-recommends && \
+        apt-get install -y dos2unix --no-install-recommends && \
+        rm -rf /var/lib/apt/lists/*
 
 # Install yarn
 RUN npm install -g yarn
