@@ -28,3 +28,6 @@ The endpoints below should be accessible:
 GET: http://localhost/v1/health
 GET: http://localhost/v1/products
 ```
+
+## Useful links
+- [Working with Stored Procedures](https://codeomelet.com/posts/calling-stored-procedure-with-nodejs-and-mssql)
